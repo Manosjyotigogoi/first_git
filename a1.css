@@ -1,0 +1,36 @@
+body{
+    background-image: url(animewallpaper4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+div{
+    background-color: rgba(206, 200, 200, 0.82);
+    padding: 10px;
+    width: 400px;
+    border-radius: 20px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="date"]{
+    width: 95%;
+    border: none;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+input[type="submit"], input[type="button"]{
+    padding: 10px;
+    background-color: rgb(127, 12, 18);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}input[type="submit"]:hover, input[type="button"]:hover{
+    background-color: rgb(31, 168, 95);
+    transform: scale(1.2);
+}

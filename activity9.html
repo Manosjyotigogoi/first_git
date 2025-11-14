@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      padding: 20px;
+    }
+    form {
+      max-width: 400px;
+      margin: auto;
+      background: rgb(145, 220, 235);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 12px;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    input[type="text"], input[type="color"] {
+      width: 100%;
+      margin-right: 10px;
+    }
+    input[type="submit"], input[type="button"] {
+      width: 400px;
+      background: #5c758b;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin-top: 15px;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+    input[type="submit"]:hover, input[type="button"]:hover {
+      background: #45a049;
+    }
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h2>Registration Form</h2>
+
+    <label>Name</label>
+    <input type="text" placeholder="Enter your name">
+
+    <label>Email</label>
+    <input type="email" placeholder="Enter your email">
+
+    <label>Password</label>
+    <input type="password" placeholder="Enter password">
+
+    <label>Gender</label>
+    <select>
+      <option>Select</option>  
+      <option>Male</option>
+      <option>Female</option>
+    </select>
+    <br>
+    <label>Bio</label> 
+    <input type="text"> 
+
+    <input type="submit" value="Submit">
+
+</body>
+</html>
